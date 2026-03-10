@@ -28,7 +28,8 @@ span {
   top: 28.5rem;
   left: 67.5rem;
   font-weight: 500;
-  font-size: 0.75rem;
+  /* font-size: 0.75rem; */
+  font-size: 0.5em;
   line-height: 100%;
   color: #616161;
 }
@@ -36,10 +37,13 @@ span {
 /****************** Header *******************/
 header {
   /* width: 89.5%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: auto;
   /* height: 3.125rem; */
   /* padding: 0.85rem 0px 0.85rem 10.5%; */
-  padding: 2.5% 0px;
+  padding: 1rem 0px;
   background: #02a28f;
   display: flex;
   align-items: center;
@@ -47,11 +51,13 @@ header {
 
 header > h1 {
   /* width: 16.75rem; */
+  display: flex;
+  align-items: center;
   width: auto;
-  height: 2rem;
-  margin-left: 13%;
+  height: 1rem;
+  /* margin-left: 0.5rem; */
   color: #fff;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 /****************** Main sections *******************/
@@ -72,7 +78,7 @@ main {
   /* width: 744; */
   width: auto;
   /* height: 396; */
-  height: 28rem;
+  height: 20rem;
   top: 120px;
   left: 156px;
   box-sizing: border-box;
@@ -90,15 +96,17 @@ main {
   background: linear-gradient(#ffffff40, #000000e9), url("./assets/city.png");
   background-repeat: no-repeat;
   background-size: cover;
-  line-height: 2rem;
+  line-height: 1.5rem;
 }
 
 .containerBanner h2 {
+  font-size: 1.3rem;
   font-weight: 700;
   margin-left: 1rem;
 }
 
 .containerBanner h3 {
+  font-size: 0.8rem;
   font-weight: 400;
   margin-left: 1rem;
 }
@@ -110,7 +118,7 @@ main {
 /****************** Section popular posts *******************/
 .section2 {
   width: auto;
-  height: 28rem;
+  height: 20rem;
   top: 120px;
   left: 156px;
   box-sizing: border-box;
@@ -128,7 +136,8 @@ main {
   width: auto;
   border-radius: 10px;
   /* padding: 16px 24px; */
-  padding: 1em 1.5em;
+  /* padding: 1em 1.5em; */
+  padding: 0.2em 0.5em;
   display: flex;
   align-items: center;
   background: #02a28f;
@@ -138,11 +147,11 @@ main {
 
 .popularPostCards {
   /* width: 22.5vw; */
-  min-width: 22.5vw;
   /* height: 96; */
   top: 11.75em;
   left: 57.8em;
-  padding: 0.85em 2.5em 0.85em 1em;
+  /* padding: 0.85em 2.5em 0.85em 1em; */
+  padding: 0px 2.5em 0px 1em;
   border-radius: 10px;
   box-shadow: 0px 10px 10px 0px #0000001a;
   display: flex;
@@ -154,7 +163,8 @@ main {
 .popularPostCards > img {
   /* width: 8.25em; */
   width: auto;
-  height: 4.375em;
+  /* height: 4.375em; */
+  height: 3.5em;
   top: 19.8125em;
   left: 58.5625em;
   border-radius: 10px;
@@ -167,7 +177,9 @@ main {
   left: 67.5625em;
   font-family: Montserrat;
   font-weight: 700;
-  font-size: 0.875em;
+  /* font-size: 0.875em; */
+  padding: 0px;
+  font-size: 0.8em;
   line-height: 100%;
   color: #000000;
 }
@@ -175,7 +187,7 @@ main {
 /****************** Section recents posts *******************/
 .section3 {
   width: 46.5vw;
-  height: 70rem;
+  /* height: 70rem; */
   top: 33.75rem;
   left: 9.75rem;
   box-sizing: border-box;
@@ -183,7 +195,7 @@ main {
 
 #recentPostTitle {
   width: auto;
-  height: 3.5em;
+  height: 0.5em;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -200,7 +212,8 @@ main {
   height: 1.0625em;
   font-family: Montserrat;
   font-weight: 500;
-  font-size: 0.8em;
+  /* font-size: 0.8em; */
+  font-size: 0.6em;
   line-height: 100%;
   text-decoration: underline;
   text-decoration-style: solid;
@@ -220,7 +233,9 @@ main {
 .postRecentCards {
   width: 22.5vw;
   /* height: 60vh; */
-  height: 30em;
+  /* height: 30em; */
+  /* height: 28em; */
+  height: 22.5em;
   background: #fff;
   box-shadow: 0px 10px 20px 0px #0000001a;
   border-radius: 10px;
@@ -243,11 +258,11 @@ main {
   width: 7.5vw;
   height: 0.5em;
   font-weight: 400;
-  font-size: 0.8em;
+  font-size: 0.7em;
   line-height: 100%;
   color: #02a28f;
-  margin: 1.5em 0px;
-  padding: 0 1em;
+  margin: 1em 0px;
+  padding: 0 0.5em;
 }
 
 .postRecentCards h2 {
@@ -257,8 +272,8 @@ main {
   font-size: 1em;
   line-height: 1em;
   color: #000;
-  padding: 0 0.8em;
-  margin-bottom: 0.8em;
+  padding: 0 0.4em;
+  /* margin-bottom: 0.8em; */
 }
 
 .spanPersonDo {
@@ -272,10 +287,10 @@ main {
   height: 8em;
   font-weight: 400;
   /* font-size: 0.775rem; */
-  font-size: 0.875em;
+  font-size: 0.6em;
   line-height: 1em;
   color: #000;
-  padding: 0 1em;
+  padding: 0 0.75em;
 }
 
 .spanPersonDt {
@@ -296,7 +311,7 @@ main {
 .sidebar1 {
   /* width: 24.5rem; */
   width: auto;
-  height: 70rem;
+  /* height: 70rem; */
   top: 33.75rem;
   left: 57.75rem;
   box-sizing: border-box;
@@ -314,7 +329,8 @@ main {
   justify-content: space-between;
   /* width: 24.5em; */
   width: auto;
-  height: 0.4em;
+  /* height: 0.4em; */
+  height: 0px;
 }
 
 .categoryOptions:first-child {
@@ -322,13 +338,14 @@ main {
 }
 
 .categoryOptions > span {
-  font-size: 0.8em;
+  /* font-size: 0.8em; */
+  font-size: 0.65em;
 }
 
 /****************** Footer *******************/
 footer {
   width: 100%;
-  height: 2.5rem;
+  height: 1.5rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -339,7 +356,8 @@ footer {
 
 footer > h3 {
   font-weight: 37.5em;
-  font-size: 0.875rem;
+  /* font-size: 0.875rem; */
+  font-size: 0.75rem;
   line-height: 100%;
   color: #fff;
 }
@@ -355,30 +373,70 @@ footer > h3 {
 
   /****************** Section popular posts *******************/
   .containerPopular {
-    gap: 1.2em;
+    gap: 1em;
   }
 
-  header > h1 {
-    margin-left: 11%;
+  /* header > h1 { */
+    /* margin-left: 11%; */
+    /* margin-left: 8%; */
+  /* } */
+
+  /****************** Section recent cards *******************/
+  .postRecentCards {
+    height: 25em;
   }
 }
 
 /*laptop L*/
 @media only screen and (/*min-width: 1025px*/ max-width: 1440px) {
   /*Developed on this screen*/
+  html,
+  body {
+    /* font-size: 25.5px; */
+    /* font-size: 27px; */
+    font-size: 17px;
+  }
+
+  /* header > h1 {
+  margin-left: 8%;
+  } */
+
+  .containerPopular {
+    gap: 1em;
+  }
+
+  /****************** Section recent cards *******************/
+  .postRecentCards {
+    height: 25em;
+  }
 }
 
 /*laptop*/
 @media only screen and (/*min-width: 769px*/ max-width: 1024px) {
   /****************** Header *******************/
-  header > h1 {
-    margin-left: 10%;
+
+  html,
+  body {
+    /* font-size: 20px; */
+    /* font-size: 22.3px; */
+    font-size: 15px;
   }
+
+  /* header > h1 {
+    margin-left: 8%;
+  } */
 
   /****************** Section popular posts *******************/
   .containerPopular {
-    gap: 1.2em;
+    /* gap: 1.2em; */
+    gap: 1em;
   }
+
+  /****************** Section recent cards *******************/
+  .postRecentCards {
+    height: 25em;
+  }
+
 }
 
 /*tablet*/
@@ -389,21 +447,29 @@ footer > h3 {
   }
 
   /****************** Header *******************/
-  header > h1 {
-    margin-left: 7%;
-  }
+  /* header > h1 {
+    margin-left: 8%;
+  } */
 
   /****************** Section popular posts *******************/
   .containerPopular {
+    /* gap: 1.2em; */
     gap: 1.2em;
   }
+
+  /****************** Section recent cards *******************/
+  .postRecentCards {
+    height: 25em;
+  }
+
 }
 
 /*mobile*/
 @media only screen and (max-width: 426px) {
   html,
   body {
-    font-size: 14px;
+    /* font-size: 12.5px; */
+    font-size: 12px;
   }
 
   .section1 {
@@ -425,12 +491,11 @@ footer > h3 {
   header {
     /* width: auto; */
     padding: 3.5% 0px;
-    justify-content: center;
   }
 
-  header > h1 {
+  /* header > h1 {
     margin-left: 0px;
-  }
+  } */
 
   /****************** Main sections *******************/
   main {
@@ -441,7 +506,6 @@ footer > h3 {
   /****************** Section popular posts *******************/
   .section2 {
     height: auto;
-    margin-top: 73em;
   }
 
   .containerPopular {
@@ -455,13 +519,13 @@ footer > h3 {
 
   .postRecentCards {
     width: auto;
-    height: 33em;
+    height: 30.5em;
   }
 
   /****************** Section sidebar categories *******************/
   .sidebar1 {
     margin-top: 1em;
-    height: 20em;
+    height: 14em;
   }
 
   /****************** Footer *******************/
