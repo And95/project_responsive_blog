@@ -29,7 +29,7 @@ span {
   left: 67.5rem;
   font-weight: 500;
   /* font-size: 0.75rem; */
-  font-size: 0.5em;
+  font-size: 0.7em;
   line-height: 100%;
   color: #616161;
 }
@@ -213,7 +213,7 @@ main {
   font-family: Montserrat;
   font-weight: 500;
   /* font-size: 0.8em; */
-  font-size: 0.6em;
+  font-size: 0.7em;
   line-height: 100%;
   text-decoration: underline;
   text-decoration-style: solid;
@@ -258,7 +258,7 @@ main {
   width: 7.5vw;
   height: 0.5em;
   font-weight: 400;
-  font-size: 0.7em;
+  font-size: 1em;
   line-height: 100%;
   color: #02a28f;
   margin: 1em 0px;
@@ -278,7 +278,7 @@ main {
 
 .spanPersonDo {
   line-height: 0.8em;
-  padding: 0px 1em;
+  padding: 0px 0.5em;
 }
 
 .postRecentCards p {
@@ -287,10 +287,10 @@ main {
   height: 8em;
   font-weight: 400;
   /* font-size: 0.775rem; */
-  font-size: 0.6em;
+  font-size: 0.9em;
   line-height: 1em;
   color: #000;
-  padding: 0 0.75em;
+  padding: 0 0.5em;
 }
 
 .spanPersonDt {
@@ -339,7 +339,7 @@ main {
 
 .categoryOptions > span {
   /* font-size: 0.8em; */
-  font-size: 0.65em;
+  font-size: 1em;
 }
 
 /****************** Footer *******************/
@@ -377,13 +377,13 @@ footer > h3 {
   }
 
   /* header > h1 { */
-    /* margin-left: 11%; */
-    /* margin-left: 8%; */
+  /* margin-left: 11%; */
+  /* margin-left: 8%; */
   /* } */
 
   /****************** Section recent cards *******************/
   .postRecentCards {
-    height: 25em;
+    height: 30em;
   }
 }
 
@@ -407,7 +407,7 @@ footer > h3 {
 
   /****************** Section recent cards *******************/
   .postRecentCards {
-    height: 25em;
+    height: 28em;
   }
 }
 
@@ -437,6 +437,9 @@ footer > h3 {
     height: 25em;
   }
 
+  .postRecentCards p {
+    font-size: 0.8em;
+  }
 }
 
 /*tablet*/
@@ -462,6 +465,9 @@ footer > h3 {
     height: 25em;
   }
 
+  .postRecentCards p {
+    font-size: 0.8em;
+  }
 }
 
 /*mobile*/
@@ -469,7 +475,7 @@ footer > h3 {
   html,
   body {
     /* font-size: 12.5px; */
-    font-size: 12px;
+    font-size: 13.5px;
   }
 
   .section1 {
@@ -517,9 +523,17 @@ footer > h3 {
     width: 100%;
   }
 
+  #recentPostTitle {
+    padding: 1em 1em;
+  }
+
   .postRecentCards {
     width: auto;
-    height: 30.5em;
+    height: 32em;
+  }
+
+  .postRecentCards p {
+    font-size: 1em;
   }
 
   /****************** Section sidebar categories *******************/
